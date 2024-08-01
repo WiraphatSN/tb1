@@ -479,7 +479,7 @@ div.header-img img {
     padding-top: 3rem;
 }
 
-.big-box .main .sch-map a img {
+.big-box .main .sch-map a um {
     height: auto;
     width: 70%;
     border-radius: 0.8rem;
@@ -487,7 +487,7 @@ div.header-img img {
     border: 1px solid #b1b1b1;
 }
 
-.big-box .main .sch-map a img:hover {
+.big-box .main .sch-map a um:hover {
     scale: 1.002;
     opacity: 0.85;
 }
