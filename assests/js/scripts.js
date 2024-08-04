@@ -1,3 +1,13 @@
+// Smooth Scroll
+SmoothScroll({
+  speed: 300,
+  speedAsDuration: true,
+  easing: 'easeInOutCubic',
+  offset: 50,
+  updateURL: true,
+  popstate: true
+});
+
 // Copy Link
 function copyTo() {
     navigator.clipboard.writeText("https://tb1.ac.th/");

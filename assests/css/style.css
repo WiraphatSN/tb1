@@ -314,9 +314,9 @@ div.header-img img {
     font-size: 15;
     color: #3f3f3f;
     border-radius: 0.2rem;
-    padding: 0.45rem 0.5rem;
+    padding: 0.3rem 0.5rem;
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.85rem;
     border-bottom: 2px solid #ccc;
 }
 
@@ -475,21 +475,17 @@ div.header-img img {
     padding-right: 3rem;
 }
 
-.big-box .main .sch-map a {
-    padding-top: 3rem;
+.big-box .main .sch-map {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
 }
 
-.big-box .main .sch-map iframe {
-    height: auto;
-    width: 70%;
-    border-radius: 0.8rem;
-    transition: all 0.4s;
-    border: 1px solid #b1b1b1;
-}
-
-.big-box .main .sch-map iframe:hover {
-    scale: 1.002;
-    opacity: 0.85;
+iframe {
+    position: absolute;
+    border-radius: 0.5rem;
+    width: 50%;
+    border: none;
 }
 
 .big-box .main .news .first-news .social-text a:hover {
@@ -580,7 +576,6 @@ footer .text p {
         padding: 0.5rem;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-        padding-bottom: 0rem;
     }
     .main .bottom-img .slider-nav {
         display: flex;
@@ -611,13 +606,29 @@ footer .text p {
     .big-box .main .news .other span {
         padding-top: 0;
     }
-    .big-box .main .news .first-news .social {
-        display: flex;
-        padding-top: 5rem;
-        float: none;
+    .main .lastest-news {
+        display: block;
+        padding-left: 2rem;
+        margin-right: 2rem;
     }
-    .big-box .main .news .first-news .social-text {
+    .news {
+        padding-left: 2rem;
+        max-width: 100%;
+    }
+    .main .first-news {
+        margin-right: 2rem;
+    }
+    .big-box .main .news .other {
+        max-width: 91%;
+    }
+    .big-box .main .sch-map, .big-box .main .sch-map img {
         display: none;
+    }
+     {
+        display: none;
+    }
+    .news-right {
+        float: none;
     }
     footer img {
         display: none;
