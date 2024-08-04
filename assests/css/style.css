@@ -478,6 +478,7 @@ div.header-img img {
 .big-box .main .sch-map {
     display: flex;
     padding-top: 2rem;
+    padding-bottom: 24rem;
     justify-content: center;
 }
 
